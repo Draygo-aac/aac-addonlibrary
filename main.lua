@@ -12,7 +12,7 @@ local library_addon = {
 api._Library = {}
 api._Library.CreateCheckButton = require("addonlibrary/ui/check_button")
 api._Library.CreateSlider = require("addonlibrary/ui/slider")
-api._Library.PopupMenu = require("addonlibrary/ui/slider")
+api._Library.PopupMenu = require("addonlibrary/ui/popup_menu")
 
 -- call below methods directly in your addons. For now only call these methods in Load() or later
 
