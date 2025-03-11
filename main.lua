@@ -5,7 +5,7 @@ local library_addon = {
   name = "Library",
   author = "Multiple",
   desc = "Adds functions to the api",
-  version = "0.2",
+  version = "0.2.1",
   library = true
 }
 --Attaching the addon library to the api

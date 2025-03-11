@@ -2,6 +2,7 @@ module = {}
 
 module.CreateCheckButton = require("addonlibrary/ui/check_button")
 module.CreateSlider = require("addonlibrary/ui/slider")
+module.CreateTooltip = require("addonlibrary/ui/tooltip")
 module.PopupMenu = require("addonlibrary/ui/popup_menu")
 
 
@@ -10,6 +11,7 @@ module.PopupMenu = require("addonlibrary/ui/popup_menu")
 --Methods
 --api._Library.UI.CreateCheckButton(id, parent, text)
 --api._Library.UI.CreateSlider(id, parent)
+--api._Library.UI.CreateTooltip(id, parent, tooltiptext)
 
 --Popup Menu 
 --	Note to create a popup menu call GetDefaultPopupInfoTable, add elements to that table then call ShowPopupMenu, call HidePopupMenu if you need to hide it
@@ -20,6 +22,7 @@ module.PopupMenu = require("addonlibrary/ui/popup_menu")
 --api._Library.UI.PopupMenu.ShowPopUpMenu(id, stickTo, infoTable, isChild, myAnchor, targetAnchor, offsetX, offsetY)
 --api._Library.UI.PopupMenu.CreateTooltipDrawable(wigit) -- creates background for the popup window
 --api._Library.UI.PopupMenu.SetViewOfPopupMenuFrame(id, parent) --probably dont need to call this
+
 
 
 return module
